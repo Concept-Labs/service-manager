@@ -1,0 +1,37 @@
+{
+    "name": "concept-labs/service-manager",
+    "description": "(C)oncept-Labs Service Manager. Dependency Injection pack",
+    "keywords": ["php", "di", "service manager", "dependency injection", "factory", "container", "config"],
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Mtr",
+            "email": "info.concept.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "concept-labs/di": "^1",
+        "concept-labs/config": "^1",
+        "concept-labs/container": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\ServiceManager\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "extra": {
+        "concept": {
+            "include": [
+                "concept.json"
+            ]
+        }
+    }
+
+}
