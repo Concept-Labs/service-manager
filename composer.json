@@ -2,7 +2,7 @@
     "name": "concept-labs/service-manager",
     "description": "(C)oncept-Labs Service Manager. Dependency Injection pack",
     "keywords": ["php", "di", "service manager", "dependency injection", "factory", "container", "config"],
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Mtr",
